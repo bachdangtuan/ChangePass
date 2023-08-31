@@ -4,6 +4,6 @@
   tasks:
   - name: Update Root user's Password
     user:
-      name: root
+      name: isofh
       update_password: always
-      password: "{{ 'passwordsaresecret' | password_hash('sha512') }}"
+      password: "{{ '@5y8uwlG6kQrqwNvvhqJu&$F9xs#' | password_hash('sha512') }}"
