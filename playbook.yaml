@@ -5,4 +5,4 @@
     user:
       name: isofh
       update_password: always
-      password: dangtuan12
+      password: "{{ 'passwordsaresecret' | password_hash('sha512') }}"
